@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #1a1c20;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color: #343a40;
+}
+
+.nav-link.active {
+    background-color: #343a40;
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+input[readonly] {
+    background-color: #b6b6b6; /* Define a cor de fundo para o modo readonly */
+}
+
+textarea[readonly] {
+    background-color: #b6b6b6; /* Define a cor de fundo para o modo readonly */
+}
